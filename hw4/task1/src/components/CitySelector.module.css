@@ -1,0 +1,13 @@
+.container {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.select {
+  padding: 5px 10px;
+  font-size: 16px;
+}
