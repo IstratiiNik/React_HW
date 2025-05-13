@@ -1,0 +1,44 @@
+// Main container for the category card list
+.category_card_list {
+  margin: 107px 100px 126px 100px;
+}
+
+// Title for the category card list
+.category_card_list_title {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  margin-bottom: 43px;
+}
+
+// Grid container for the category cards
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 27px 90px;
+}
+
+// Styles for the "More Categories" card
+.more_card {
+  width: 270px;
+  height: 198px;
+  padding: 69px 0 36px 39px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+
+  // Styles for the arrow icon inside the "More Categories" card
+  img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 22px;
+  }
+
+  // Styles for the text inside the "More Categories" card
+  p {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+}
