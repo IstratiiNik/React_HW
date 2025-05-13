@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+// Main header container
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  flex-wrap: wrap;
+
+  // Flex container for child elements
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  // Remove underline on hover for links
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+// Logo styles
+.logo {
+  font-family: "Red Hat Display", sans-serif;
+  color: rgb(39, 64, 89);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-right: 109px;
+}
+
+// Styles for the "Job Search" link
+.find_job {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-right: 53px;
+}
+
+// Styles for the "Startup Search" link
+.find_startap {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+// Styles for the "Register" link
+.reg {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 15px;
+  line-height: 18px;
+}
+
+// Styles for the "Login" button
+.sign_button {
+  background: rgb(255, 255, 255);
+  padding: 13px 14px;
+  margin-left: 39px;
+  color: rgb(39, 64, 89);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}

@@ -7,3 +7,4 @@
 - [hw3](./hw3): Работа со стилями. Хук useState
 - [hw4](./hw4/task1): События в REACT - Задание 1 
 - [hw4](./hw4/task2): События в REACT - Задание 2 
+- [hw5](./hw5): Верстка сайта с React - Header, SearchBar, CategoryCard

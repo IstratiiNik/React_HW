@@ -1,0 +1,21 @@
+// Main container for the category card
+.category_card {
+  width: 270px;
+  height: 198px;
+  padding: 61px 0 68px 29px;
+  box-sizing: border-box;
+
+  // Styles for the category image
+  img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  // Styles for the category text
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+}
