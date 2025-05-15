@@ -1,0 +1,36 @@
+.vacancy_card_list {
+  h2 {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 12px;
+  }
+  p {
+    color: rgba(141, 141, 141, 0.8);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 42px;
+  }
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(449px, 1fr));
+  gap: 40px 185px;
+  margin-bottom: 91px;
+}
+
+.vacancy_card_button {
+  display: flex;
+  justify-content: center;
+  button {
+    padding: 20px 50px 20px 50px;
+    background: rgb(39, 64, 89);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+  }
+}
